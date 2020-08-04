@@ -6,6 +6,7 @@
   <title>Contact</title>
   <link rel="stylesheet" href="css/normalize-mini.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
   <!-- HEADER SIDE OF WHOLE PAGE -->
@@ -60,6 +61,68 @@
         </div>
       </header>
 
+      <main>
+        <div class="container">
+          <div class="main-wrapper">
+            <!-- FORM SECTION -->
+            <section class="form-section">
+              <h2>Напишите нам</h2>
+              <form action="https://echo.htmlacademy.ru" method="POST" enctype="multipart/form-data">
+                <div class="input-box">
+                  <input class="text" type="text" placeholder="Имя" name="name" required>
+                </div>
+                <div class="input-box">
+                  <input class="text" type="email" placeholder="Электронная почта" name="email" required>
+                </div>
+                <div class="input-box">
+                  <input class="text" type="tel" minlength="9" placeholder="Номер телефона" name="phone_number" required>
+                </div>
+                <div class="input-box">
+                  <input class="text" type="text" placeholder="Тема" name="theme" required>
+                </div>
+                <textarea class="text-box input-box" name="text" id="textarea" cols="30" rows="10" placeholder="Текст" required></textarea>
+                <div class="input-box input-password input-file"> 
+                  <input type="file" name="file" placeholder="Прикрепить файл" required>
+                </div>
+                <div class="input-box input-password">
+                  <input class="text" type="password" placeholder="Код" name="password" required>
+                  <span>4 k 7 Z a</span>
+                </div>
+                <button class="send-btn" type="submit">Отправить</button>
+              </form>
+            </section>
+            <!-- VISIT CARD  -->
+            <div class="visit-card_wrapper">
+              <h1>namanganliklar24</h1>
+              <div class="visit-card_list-box"><div class="left-side_visit-card">
+                <p>Электронная почта</p>
+                <p>Социальные сети</p>
+                <p>Телеграм канал</p>
+                <p>Мобильная приложение</p>
+              </div>
+              <div class="right-side_visit-card">
+                <a class="email_visit-card td-none" href="mailto:info@namanganliklar24.uz">info@namanganliklar24.uz</a>
+                <div class="social-networks_box">
+                  <a href="#"><img src="img/facebook_visit-card.svg" alt="Facebook icon" width="32" height="32">
+                  </a>
+                  <a href="#"><img src="img/twitter_visit-card.svg" alt="Twitter  icon" width="32" height="32">
+                  </a>
+                  <a href="#"><img src="img/odnoklasnik_visit-card.svg"  alt="Odnoklasnik icon" width="32" height="32">
+                  </a>
+                </div>
+                <a class="visit-card_tg-link td-none" href="https://t.me/Namanganliklar" target="_blank"><img src="img/logo_telegram.svg" alt="Telegram icon" width="20" height="20">Подписатся</a>
+                <div class="mobile-apps_visit-card">
+                  <a href="#"><img src="img/googlePlay_visit-card.svg" alt="Google play app" width="111" height="33">
+                  </a>
+                  <a href="#"><img src="img/appleStore_visit-card.svg" alt="Appstore app" width="111" height="33">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div> 
+    </main>
 
        <!-- FOOTER SIDE OF THE PAGE -->
        <footer class="footer-wrapper">

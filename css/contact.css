@@ -1,0 +1,164 @@
+/* MAIN PART OF THE PAGE */
+
+.main-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.form-section h2 {
+  margin-top: 17px;
+  margin-bottom: 12px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+.input-box {
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.input-box input:focus {
+  border: 2px solid #285193;
+}
+.input-box input {
+  background: #F1F1F1;
+  border-radius: 5px;
+  border: 2px solid #2851934d;
+  width: 600px;
+  padding: 15px;
+  outline: none;
+}
+.input-box input::placeholder {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+}
+.text-box {
+  background: #F1F1F1;
+  border: 2px solid #2851934d;
+  box-sizing: border-box;
+  border-radius: 5px;
+  max-width: 600px;
+  max-height: 307px;
+  min-width: 600px;
+  min-height: 307px;
+  padding: 15px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  outline: none;
+  overflow: auto;
+}
+.text-box:focus {
+  border: 2px solid #285193;
+}
+.input-password input {
+  width: 221px;
+}
+.input-password span {
+  display: inline-block;
+  margin-left: 18px;
+  font-size: 23px;
+  line-height: 29px;
+  color: #000000;
+}
+.send-btn {
+  background: #295093;
+  border: 2px solid rgba(40, 81, 147, 0.54);
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  padding: 15px 60px;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+.send-btn:hover {
+  background-color: #143368;
+}
+
+/* VISIT CARD SECTION */
+
+.visit-card_wrapper {
+  background: #FFFFFF;
+  border: 2px solid #BCC3CD;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: -10px 10px 9px rgba(57, 57, 57, 0.25);
+  border-radius: 5px;
+  width: 510px;
+  height: 280px;
+  margin-top: 59px;
+  padding: 23px;
+}
+.visit-card_wrapper h1 {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  color: #295091;
+  text-transform: uppercase;
+  text-align: right;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.visit-card_list-box {
+  display: flex;
+  justify-content: space-between;
+}
+.visit-card_list-box p {
+  font-size: 18px;
+  line-height: 21px;
+  color: #888888;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.right-side_visit-card {
+  text-align: right;
+}
+.email_visit-card {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #888888;
+}
+.social-networks_box {
+  text-align: right;
+}
+.social-networks_box a {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 0;
+  margin-bottom: 13px;
+  margin-left: 13px;
+}
+.visit-card_tg-link {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #295091;
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  padding: 6px 10px;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.mobile-apps_visit-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mobile-apps_visit-card a {
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 13px;
+  margin-bottom: 0;
+}
